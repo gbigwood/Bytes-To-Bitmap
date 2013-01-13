@@ -25,9 +25,11 @@ file. A dialogue should pop up asking you to select a file to process.
 If you prefer to run in a Terminal so that you can use the script to process a 
 large number of files, run the script like this:
 ```bash
-python bitMapMaker.py inputFile.txt True outPutFile.bmp
+python bitMapMaker.py Desert.jpg True outPutFile.bmp
 ```
 
 The second argument indicates whether the image should be scaled to 1024*768. 
 If the user does not provide arguments then the gui will prompt the user for 
 file selection.
+
+A corrupt jpg is included for demonstration purposes.
