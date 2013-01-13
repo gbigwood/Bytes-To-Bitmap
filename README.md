@@ -36,7 +36,7 @@ A corrupt jpg is included for demonstration purposes.
 
 Bytes from the input file are represented as black and white pixels.  Sometimes
 due to rounding, we must fill in some pixels, but there are no remaining bytes
-in the input file. We therefore represent these pixels using ablue colour.
+in the input file. We therefore represent these pixels using a blue colour.
 
 ## References
 
