@@ -12,8 +12,6 @@ quickly inspect the files for said corrupt blocks.
 
 Maybe you just want to view your PhD thesis as raw bytes?
 
-Reference bitmap header implementation code found at:
-<http://pseentertainmentcorp.com/smf/index.php?topic=2034.0>
 
 * No external libraries, pure python 2.7 <http://www.python.org/getit/> _Please don't use Python 3._
 
@@ -33,3 +31,9 @@ If the user does not provide arguments then the gui will prompt the user for
 file selection.
 
 A corrupt jpg is included for demonstration purposes.
+
+## References
+
+Writing a bitmap without using an external library requires manually
+constructing an appropriate header. I used the following code to do so:
+<http://pseentertainmentcorp.com/smf/index.php?topic=2034.0>
