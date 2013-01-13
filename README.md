@@ -32,6 +32,12 @@ file selection.
 
 A corrupt jpg is included for demonstration purposes.
 
+### Why the blue bar?
+
+Bytes from the input file are represented as black and white pixels.  Sometimes
+due to rounding, we must fill in some pixels, but there are no remaining bytes
+in the input file. We therefore represent these pixels using ablue colour.
+
 ## References
 
 Writing a bitmap without using an external library requires manually
